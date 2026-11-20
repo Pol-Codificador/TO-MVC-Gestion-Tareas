@@ -1,0 +1,4 @@
+id;name;description;priority;completed;createdAt
+1;Diseñar diagrama de clases MVC;Definir relaciones entre Modelo, Vista y Controlador;ALTA;true;2026-11-20 14:16:56
+2;Implementar persistencia en CSV;Crear TaskRepository con manejo de IOException;ALTA;false;2026-11-20 14:16:56
+3;Redactar informe técnico final;Incluir marco teórico, código y evidencias;ALTA;true;2026-11-20 14:16:56

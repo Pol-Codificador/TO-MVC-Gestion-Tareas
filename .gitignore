@@ -1,0 +1,35 @@
+# Archivos compilados de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs y temporales generales
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales de Microsoft Office (Word, PowerPoint, Excel)
+~$*
+*.~lock.*

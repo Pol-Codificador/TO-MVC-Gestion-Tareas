@@ -1,0 +1,419 @@
+=========================================================================
+     SISTEMA AVANZADO DE GESTIÓN DE TAREAS (ACTIVIDAD 2 - PATRÓN MVC)    
+=========================================================================
+>> Iniciando sin archivo previo ("tareas.csv" se creará al guardar).
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: Nombre de la tarea: Descripción (opcional): Prioridad [1=Alta, 2=Media, 3=Baja] (por defecto Media): >> Tarea añadida correctamente (ID=1, Prioridad=Alta).
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: Nombre de la tarea: Descripción (opcional): Prioridad [1=Alta, 2=Media, 3=Baja] (por defecto Media): >> Tarea añadida correctamente (ID=2, Prioridad=Alta).
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: Nombre de la tarea: Descripción (opcional): Prioridad [1=Alta, 2=Media, 3=Baja] (por defecto Media): >> Tarea añadida correctamente (ID=3, Prioridad=Media).
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: Nombre de la tarea: Descripción (opcional): Prioridad [1=Alta, 2=Media, 3=Baja] (por defecto Media): >> Tarea añadida correctamente (ID=4, Prioridad=Baja).
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: 
+=== LISTA COMPLETA DE TAREAS ===
+IDX  | ID   | NOMBRE                     | PRIORIDAD | ESTADO      | CREADA EL          
+-----+------+----------------------------+-----------+-------------+--------------------
+0    | 1    | Diseñar diagrama de cla... | Alta      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Definir relaciones entre Modelo, Vista y Controlador
+1    | 2    | Implementar persistenci... | Alta      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Crear TaskRepository con manejo de IOException
+2    | 3    | Redactar informe académico | Media     | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Incluir marco teórico, código y evidencias
+3    | 4    | Revisar ortografía de d... | Baja      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Verificar notas del orador
+---------------------------------------------------------------------------------------
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: 
+=== LISTA COMPLETA DE TAREAS ===
+IDX  | ID   | NOMBRE                     | PRIORIDAD | ESTADO      | CREADA EL          
+-----+------+----------------------------+-----------+-------------+--------------------
+0    | 1    | Diseñar diagrama de cla... | Alta      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Definir relaciones entre Modelo, Vista y Controlador
+1    | 2    | Implementar persistenci... | Alta      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Crear TaskRepository con manejo de IOException
+2    | 3    | Redactar informe académico | Media     | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Incluir marco teórico, código y evidencias
+3    | 4    | Revisar ortografía de d... | Baja      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Verificar notas del orador
+---------------------------------------------------------------------------------------
+Ingrese el índice (IDX) de la tarea para cambiar su estado: >> Tarea [0] "Diseñar diagrama de clases MVC" ahora está: Completada.
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: 
+=== LISTA COMPLETA DE TAREAS ===
+IDX  | ID   | NOMBRE                     | PRIORIDAD | ESTADO      | CREADA EL          
+-----+------+----------------------------+-----------+-------------+--------------------
+0    | 1    | Diseñar diagrama de cla... | Alta      | Completada  | 2026-11-20 14:16:56
+     |      | Desc: Definir relaciones entre Modelo, Vista y Controlador
+1    | 2    | Implementar persistenci... | Alta      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Crear TaskRepository con manejo de IOException
+2    | 3    | Redactar informe académico | Media     | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Incluir marco teórico, código y evidencias
+3    | 4    | Revisar ortografía de d... | Baja      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Verificar notas del orador
+---------------------------------------------------------------------------------------
+Ingrese el índice (IDX) de la tarea a actualizar: >> Editando tarea [2] "Redactar informe académico". Deje vacío para mantener el valor actual.
+Nuevo nombre [Redactar informe académico]: Nueva descripción [Incluir marco teórico, código y evidencias]: Nueva prioridad [1=Alta, 2=Media, 3=Baja] [Media]: ¿Alternar estado actual (Pendiente)? [s/n]: >> Tarea [2] actualizada correctamente.
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: 
+--- FILTRAR TAREAS ---
+  1. Solo Pendientes
+  2. Solo Completadas
+  3. Prioridad Alta
+  4. Prioridad Media
+  5. Prioridad Baja
+Seleccione criterio de filtro: 
+=== TAREAS PENDIENTES ===
+IDX  | ID   | NOMBRE                     | PRIORIDAD | ESTADO      | CREADA EL          
+-----+------+----------------------------+-----------+-------------+--------------------
+0    | 2    | Implementar persistenci... | Alta      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Crear TaskRepository con manejo de IOException
+1    | 4    | Revisar ortografía de d... | Baja      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Verificar notas del orador
+---------------------------------------------------------------------------------------
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: 
+--- FILTRAR TAREAS ---
+  1. Solo Pendientes
+  2. Solo Completadas
+  3. Prioridad Alta
+  4. Prioridad Media
+  5. Prioridad Baja
+Seleccione criterio de filtro: 
+=== TAREAS DE PRIORIDAD ALTA ===
+IDX  | ID   | NOMBRE                     | PRIORIDAD | ESTADO      | CREADA EL          
+-----+------+----------------------------+-----------+-------------+--------------------
+0    | 1    | Diseñar diagrama de cla... | Alta      | Completada  | 2026-11-20 14:16:56
+     |      | Desc: Definir relaciones entre Modelo, Vista y Controlador
+1    | 2    | Implementar persistenci... | Alta      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Crear TaskRepository con manejo de IOException
+2    | 3    | Redactar informe técnic... | Alta      | Completada  | 2026-11-20 14:16:56
+     |      | Desc: Incluir marco teórico, código y evidencias
+---------------------------------------------------------------------------------------
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: Ingrese palabra clave para buscar (en nombre o descripción): 
+=== RESULTADOS DE BÚSQUEDA: "CSV" ===
+IDX  | ID   | NOMBRE                     | PRIORIDAD | ESTADO      | CREADA EL          
+-----+------+----------------------------+-----------+-------------+--------------------
+0    | 2    | Implementar persistenci... | Alta      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Crear TaskRepository con manejo de IOException
+---------------------------------------------------------------------------------------
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: 
+================== RESUMEN Y ESTADÍSTICAS ==================
+  Total de tareas     : 4
+  Completadas         : 2
+  Pendientes          : 2
+  Avance general      : [##########----------] 50.0%
+  ----------------------------------------------------------
+  Por prioridad       : Alta=3 | Media=0 | Baja=1
+============================================================
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: 
+=== LISTA COMPLETA DE TAREAS ===
+IDX  | ID   | NOMBRE                     | PRIORIDAD | ESTADO      | CREADA EL          
+-----+------+----------------------------+-----------+-------------+--------------------
+0    | 1    | Diseñar diagrama de cla... | Alta      | Completada  | 2026-11-20 14:16:56
+     |      | Desc: Definir relaciones entre Modelo, Vista y Controlador
+1    | 2    | Implementar persistenci... | Alta      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Crear TaskRepository con manejo de IOException
+2    | 3    | Redactar informe técnic... | Alta      | Completada  | 2026-11-20 14:16:56
+     |      | Desc: Incluir marco teórico, código y evidencias
+3    | 4    | Revisar ortografía de d... | Baja      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Verificar notas del orador
+---------------------------------------------------------------------------------------
+Ingrese el índice (IDX) de la tarea a eliminar: >> Tarea eliminada correctamente: [ID=4] "Revisar ortografía de diapositivas".
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: [ERROR] Entrada inválida ("abc"). Debe ingresar un número entero.
+[ERROR] Opción no reconocida. Seleccione un número del 0 al 11.
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: >> Se guardaron 3 tarea(s) exitosamente en "tareas.csv".
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: >> Lista de tareas en memoria limpiada (0 tareas en RAM; el archivo en disco no fue modificado).
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: 
+=== LISTA COMPLETA DE TAREAS ===
+No se encontraron tareas para mostrar.
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: >> Se cargaron 3 tarea(s) desde "tareas.csv".
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: 
+=== LISTA COMPLETA DE TAREAS ===
+IDX  | ID   | NOMBRE                     | PRIORIDAD | ESTADO      | CREADA EL          
+-----+------+----------------------------+-----------+-------------+--------------------
+0    | 1    | Diseñar diagrama de cla... | Alta      | Completada  | 2026-11-20 14:16:56
+     |      | Desc: Definir relaciones entre Modelo, Vista y Controlador
+1    | 2    | Implementar persistenci... | Alta      | Pendiente   | 2026-11-20 14:16:56
+     |      | Desc: Crear TaskRepository con manejo de IOException
+2    | 3    | Redactar informe técnic... | Alta      | Completada  | 2026-11-20 14:16:56
+     |      | Desc: Incluir marco teórico, código y evidencias
+---------------------------------------------------------------------------------------
+
+--------------------------- MENÚ PRINCIPAL ---------------------------
+  1. Añadir nueva tarea
+  2. Listar todas las tareas
+  3. Actualizar una tarea (nombre, descripción, prioridad o estado)
+  4. Marcar / alternar estado de tarea (Completada / Pendiente)
+  5. Eliminar una tarea
+  6. Filtrar tareas (por estado o prioridad)
+  7. Buscar tareas por palabra clave
+  8. Ver resumen y estadísticas
+  9. Guardar tareas en archivo (CSV)
+ 10. Cargar tareas desde archivo (CSV)
+ 11. Limpiar lista en memoria (para probar recarga)
+  0. Salir
+----------------------------------------------------------------------
+Seleccione una opción: >> Gracias por usar el Gestor de Tareas MVC. ¡Hasta pronto!

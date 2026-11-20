@@ -1,0 +1,21 @@
+=== GESTOR DE TAREAS (ACTIVIDAD 1 - PATRÓN MVC) ===
+
+>> Tarea añadida correctamente: "Estudiar el patrón arquitectónico MVC"
+>> Tarea añadida correctamente: "Implementar el laboratorio de Tecnología de Objetos"
+>> Tarea añadida correctamente: "Preparar la exposición y el informe técnico"
+
+================ LISTA DE TAREAS ================
+[0] Estudiar el patrón arquitectónico MVC - Estado: Pendiente
+[1] Implementar el laboratorio de Tecnología de Objetos - Estado: Pendiente
+[2] Preparar la exposición y el informe técnico - Estado: Pendiente
+=================================================
+
+>> Tarea [1] marcada como completada: "Implementar el laboratorio de Tecnología de Objetos"
+>> Error: Índice inválido (10). Debe estar entre 0 y 2.
+
+================ LISTA DE TAREAS ================
+[0] Estudiar el patrón arquitectónico MVC - Estado: Pendiente
+[1] Implementar el laboratorio de Tecnología de Objetos - Estado: Completada
+[2] Preparar la exposición y el informe técnico - Estado: Pendiente
+=================================================
+
