@@ -1,0 +1,16 @@
+=== PATRÓN COMMAND: CONTROL REMOTO DE TELEVISOR ===
+
+1. Acción: Encender televisor
+  [TV] Televisor encendido (Canal 1, Volumen 15).
+
+2. Acción: Subir volumen
+  [TV] Volumen aumentado a 20.
+
+3. Acción: Cambiar al canal 7
+  [TV] Canal cambiado al 7.
+
+4. Acción: Bajar volumen
+  [TV] Volumen disminuido a 15.
+
+5. Acción: Apagar televisor
+  [TV] Televisor apagado.

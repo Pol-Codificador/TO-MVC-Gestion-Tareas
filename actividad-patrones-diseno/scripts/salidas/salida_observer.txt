@@ -1,0 +1,22 @@
+=== PATRÓN OBSERVER: SISTEMA DE NOTIFICACIONES ===
++ Suscrito: Ana
++ Suscrito: Carlos
++ Suscrito: Lucía
+
+[SISTEMA] Emitiendo notificación: "Nueva actualización v2.0 disponible."
+  [Notificación para Ana] -> Nueva actualización v2.0 disponible.
+  [Notificación para Carlos] -> Nueva actualización v2.0 disponible.
+  [Notificación para Lucía] -> Nueva actualización v2.0 disponible.
+
+- Desuscrito: Carlos
+
+[SISTEMA] Emitiendo notificación: "Mantenimiento programado hoy a las 22:00."
+  [Notificación para Ana] -> Mantenimiento programado hoy a las 22:00.
+  [Notificación para Lucía] -> Mantenimiento programado hoy a las 22:00.
+
++ Suscrito: Diego
+
+[SISTEMA] Emitiendo notificación: "Promoción exclusiva de fin de semana activada."
+  [Notificación para Ana] -> Promoción exclusiva de fin de semana activada.
+  [Notificación para Lucía] -> Promoción exclusiva de fin de semana activada.
+  [Notificación para Diego] -> Promoción exclusiva de fin de semana activada.

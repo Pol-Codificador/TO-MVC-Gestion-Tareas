@@ -1,0 +1,17 @@
+=== PATRÓN STRATEGY: PROMOCIONES DE PRODUCTOS ===
+Estrategia : Sin descuento (precio regular)
+Producto   : Audífonos Bluetooth (4 x S/ 120.00 = S/ 480.00)
+Total final: S/ 480.00  (Ahorro: S/ 0.00)
+--------------------------------------------------
+Estrategia : Descuento porcentual (20%)
+Producto   : Audífonos Bluetooth (4 x S/ 120.00 = S/ 480.00)
+Total final: S/ 384.00  (Ahorro: S/ 96.00)
+--------------------------------------------------
+Estrategia : Descuento de monto fijo (S/ 75.00)
+Producto   : Audífonos Bluetooth (4 x S/ 120.00 = S/ 480.00)
+Total final: S/ 405.00  (Ahorro: S/ 75.00)
+--------------------------------------------------
+Estrategia : Promoción 2x1 (paga 1 de cada 2 unidades)
+Producto   : Audífonos Bluetooth (4 x S/ 120.00 = S/ 480.00)
+Total final: S/ 240.00  (Ahorro: S/ 240.00)
+--------------------------------------------------
